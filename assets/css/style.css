@@ -1,0 +1,583 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+a, button{
+    display: inline-block;
+}
+.card{
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 10%; 
+    border: 0ch;
+}
+
+.card-title{
+    font-family: Cabin, Bold !important;
+    font-size: 23pt !important;
+    font-weight: 200 !important;  
+    text-align: left;  
+}
+
+.card-text{
+    font-family: 'Open Sans', Light !important;
+    font-size: 16pt !important; 
+    text-align: left;  
+}
+
+.formulario input{
+    width: 80%;
+    margin: auto;
+}
+
+.titulofooter{
+    color: #FFFFFF;
+    font-family: Cabin !important;
+    font-size: 16pt !important;
+    font-weight: 400 !important;    
+    text-align: center;
+    width: 100%;
+}
+
+.subtituloFooter {
+    color: #FFFFFF;
+    font-family: Lobster, Regular !important;
+    font-size: 30pt !important; 
+    font-weight: 200;  
+    text-align: center;
+    width: 100%;
+}
+
+.estiloinput{
+    padding: 0.25px 0.25px 0.25px 0.25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.centrarfoofooter{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;   
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+
+}
+
+.btn-outline-light {
+    width: 60px;
+    color: #FFFFFF;
+    background-color: #10ccf4;    
+    border: 0;
+  }
+  
+.btn-outline-light:hover {
+    color: #10ccf4;
+    background-color: #ffffff;
+    border: 0;
+}
+
+.fondoPersonalizadoFooter {
+    color: #10ccf4;
+    background-color: #ffffff;
+    padding-top: 5em;    
+}
+
+.textoAnyo {
+    font-family: 'Open Sans', Light !important;
+    color: #FFFFFF;
+    font-size: 20pt !important; 
+    text-align: center;  
+}
+
+.tituloRMiPortafolio{
+    font-family: 'Cabin' !important;
+    color:  #FFFFFF;
+    font-size: 37pt !important;
+}
+
+.nombreFooter {
+    font-family: 'Oswald', Bold;
+    font-size: 40pt;
+    font-weight: 700;
+    color: white !important;
+}
+
+.navbar-expand-lg {
+    padding-left: 8.5%;
+}
+
+.subtituloRicomida{
+    font-family: 'Lobster Two' !important;
+    color:  #FFFFFF;
+    font-size: 30pt !important;
+}
+
+.bg-success{
+    background-color: #10ccf4 !important;
+    background: transparent !important;
+}
+
+.navbar-nav{
+    padding-right: 10%;
+}
+
+.paddingLeftRight {
+    
+    padding-right: 10%;
+    padding-left: 10%;    
+}
+
+.ajustaDimensionesSlideMini {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.margenesSuperiorElement {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+    
+.carousel-indicators [data-target] {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+ 
+.carousel-indicators [data-target] span {
+  content: ’’;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;  
+}
+
+.card-body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.espaciadoMedio {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.btn-personalizado {
+    background: transparent;
+    border-color: #ffffff;
+    border-style: 1px;
+    border-radius: 4px 4px 4px 4px;
+    color: #ffffff;
+}
+
+.innerH3FooterTextStyle {
+    font-size: 37pt;
+    padding: 23px;
+}
+
+.estiloContenidoReceta {
+    font-family: 'Cabin', sans-serif !important;
+    font-weight: 400 !important;
+    color:  #10ccf4;
+    font-size: 20pt !important;  
+    text-align: left;  
+}
+
+.estiloRecetasRelacionadas {
+    font-family: Cabin, Bold !important;
+    font-size: 40pt !important; 
+    text-align: center;  
+}
+
+.estiloLineaHR {
+  border-color: #10ccf4;
+  background-color: #10ccf4;
+}
+
+.estiloLineaHRTextoUno {
+    width: 20%;
+    height: 2px;
+    border-color: #FFFFFF   ;
+    background-color: #FFFFFF;    
+}
+
+.estiloLineaHRTextoDos {
+    width: 20%;
+    height: 2px;
+    border-color: white   ;
+    background-color: white;        
+}
+
+.textoArticleLeft, .textoArticleRight {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: left;
+    font-family: 'Open Sans', Regular;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.textoDos { 
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 7.5%;
+}
+
+.card-group {
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+.card {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.card-title {
+    color: #FFFFFF !important;
+    font-family:  'Oswald' !important;
+    font-size: 23pt !important;    
+    font-weight: 400 !important;
+}
+
+.subTextoMiExperiencia {
+    text-align: center;
+    color: #FFFFFF;
+    font-family:  'Oswald', Bold;
+    font-size: 52pt;
+}
+
+.contactoEstilo {
+    text-align: center;
+    color: #FFFFFF !important;
+    font-family:  'Oswald', Bold !important;
+    font-size: 52pt !important;     
+}
+
+.subTextoContactoEstilo {
+    margin-top: 7.5%;
+    text-align: center;
+    font-family: 'Open Sans', Regular;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #FFFFFF;    
+}
+
+.btn {
+    text-align: center;
+    color: #FFFFFF;
+    font-family:  'Oswald', Bold;
+    font-size: 25pt;  
+    margin-top: 2.5%;
+    margin-bottom: 17.5%;
+}
+
+.subTextoPortafolio {
+    text-align: center;
+    color: #FFFFFF;
+    font-family:  'Oswald', Bold;
+    font-size: 52pt;    
+    padding-top: 5%;
+}
+
+.fab.fa-angrycreative, .fab.fa-asymmetrik {
+    color: #10ccf4;
+}
+
+.estiloPortafolioPresentacion {
+    background-color: #10ccf4;
+}
+
+.espaciadoPortafolioBottom {
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+
+.estiloTextoTopSlider {
+    font-family: Cabin, Bold !important;
+    font-size: 40pt !important; 
+    text-align: left; 
+    margin-left: 1%;   
+    margin-right: 10%;  
+}
+
+.angrycreativeText, .asymmetrikText {
+    color: #FFFFFF;
+    font-family:  'Oswald', SemiBold;
+    font-size: 25pt;
+}
+
+.anchoFinalImagenPrincipal {
+  max-width: 100%;
+  height: auto;
+}
+
+.estiloSubTextoTopSlider {
+    font-family: Cabin, Bold !important;
+    font-size: 20pt !important;
+    text-align: left; 
+    margin-left: 1%;   
+    margin-right: 10%;     
+}
+
+.estiloLineaHRTopSlider {
+  border-color: #10ccf4;
+  background-color: #10ccf4;
+  margin-left: 10%;     
+}
+
+.estiloBotones {
+    position: absolute;
+    display: inline-block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.fondoPersonalizadoTextoPrincipal {
+    background:rgba(255,255,255,0.0);
+    padding-left: 4.5%;
+}
+
+.btn-personalizado-correo {
+    position: relative;
+    background: transparent;
+    border-color: #DDDDDD;
+    border-style: 1px;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    margin-right: 2%;
+    margin-left: 3.8%;
+}
+
+.espaciadoColumnasPersonalizado {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.btn-personalizado-favoritos {
+    position: relative;
+    background: transparent;
+    border-color: #DDDDDD;
+    border-style: 1px;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    margin-right: 2%;
+    margin-left: 82%;
+    margin-top: -22.5%;
+    width: 50%;
+}
+
+.carousel.slide {
+    margin-top: -100px;
+}
+
+.stickyMenu { 
+    z-index: 100000;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.estiloLineaHRSlide {
+    position: relative;
+    display: inline-block;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    width: 25%;
+    height: 2px;   
+}
+
+.tituloYoSoy {
+    font-family: 'Oswald', sans-serif;
+    font-size: 72pt;
+}
+
+.tituloFulano {
+    color: #FFFFFF;
+    font-family: 'Oswald', Bold;
+    font-size: 40pt;
+    font-weight: 700;
+}
+
+.textoUno {
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Open Sans', SemiBold;
+    font-size: 25pt;
+    font-weight: 600;
+}
+
+@media (max-width: 766px) {
+    
+    .tituloYoSoy {
+        font-family: 'Oswald', sans-serif;
+        font-size: 36pt;        
+    }
+
+    .estiloLineaHRSlide {
+        position: relative;
+        display: inline-block;
+        border-color: #FFFFFF;
+        background-color: #FFFFFF;
+        width: 18.5%;
+        height: 1px;           
+    }
+
+    .tituloFulano {
+        color: #FFFFFF;
+        font-family: 'Oswald', Bold;
+        font-size: 23pt;
+        font-weight: 700;        
+    }
+
+    .textoUno {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Open Sans', SemiBold;
+        font-size: 15.5pt;
+        font-weight: 600;
+    }
+
+    .textoDos { 
+        position: relative;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 7.5%;
+    }
+
+    .textoArticleLeft, .textoArticleRight {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: left;
+        font-family: 'Open Sans', Regular;
+        font-size: 10.5pt;
+        font-weight: 400;
+        color: #FFFFFF;        
+    }
+
+    .subTextoMiExperiencia {
+        text-align: center;
+        color: #FFFFFF;
+        font-family:  'Oswald', Bold;
+        font-size: 32pt;        
+    }
+
+    .subTextoPortafolio {
+        text-align: center;
+        color: #FFFFFF;
+        font-family:  'Oswald', Bold;
+        font-size: 32pt;    
+        padding-top: 5%;        
+    }
+
+    .subTextoContactoEstilo {
+        margin-top: 7.5%;
+        text-align: center;
+        font-family: 'Open Sans', Regular;
+        font-size: 12.5pt;
+        font-weight: 400;
+        color: #FFFFFF;            
+    }
+
+    .contactoEstilo {
+        text-align: center;
+        color: #FFFFFF !important;
+        font-family:  'Oswald', Bold !important;
+        font-size: 32pt !important;             
+    }
+
+    .card-title {
+        color: #FFFFFF !important;
+        font-family:  'Oswald' !important;
+        font-size: 15.5pt !important;    
+        font-weight: 400 !important;        
+    }
+
+    .card-text {
+        font-family: 'Open Sans', Light !important;
+        font-size: 8.5pt !important; 
+        text-align: left;          
+    }
+
+    .fullIcon {
+        display: none;
+    }
+
+    .btn {
+        text-align: center;
+        color: #FFFFFF;
+        font-family:  'Oswald', Bold;
+        font-size: 14.5pt;  
+        margin-top: 2.5%;
+        margin-bottom: 17.5%;
+    }    
+
+    .v-center {
+        margin-left: 6.5%;
+    }
+
+    .ajusteRedesSocialesIconos {
+        display: none;
+    }
+
+    .nombreFooter {
+        display: none;
+    }
+
+    .centrarfoofooter{
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;   
+        padding-top: 3.5em;
+        padding-bottom: 3.5em;    
+    }    
+
+    .nombreFulanoMini {
+        font-family: 'Oswald', Bold;
+        font-size: 25pt;
+        font-weight: 700;
+        color: white !important;
+    }
+}
+
+@media (min-width: 767px) {
+    
+    .miniIcon{
+        display: none;
+    }    
+
+    .nombreFulanoMini {
+        display: none;
+    }
+
+    .ajusteRedesSocialesIconosMini {
+        display: none;
+    }
+}
