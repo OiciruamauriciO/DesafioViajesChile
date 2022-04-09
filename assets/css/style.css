@@ -25,6 +25,7 @@ a, button{
 }
 
 .card-text{
+    color: #000000;
     font-family: 'Open Sans', Light !important;
     font-size: 16pt !important; 
     text-align: left;  
@@ -33,6 +34,16 @@ a, button{
 .formulario input{
     width: 80%;
     margin: auto;
+}
+
+.exampleInputPassword1 {
+    height: 100%;
+    max-height: 800px;
+}
+
+.form-group {
+    margin-left: 11%;
+    margin-right: 11%;
 }
 
 .titulofooter{
@@ -65,11 +76,11 @@ a, button{
     display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;   
+    padding-left: 22.5%;
+    padding-right: 22.5%;   
     padding-top: 3.5em;
     padding-bottom: 3.5em;
-
+    background-color: #10ccf4;
 }
 
 .btn-outline-light {
@@ -254,7 +265,7 @@ a, button{
 }
 
 .card-title {
-    color: #FFFFFF !important;
+    color: #000000 !important;
     font-family:  'Oswald' !important;
     font-size: 23pt !important;    
     font-weight: 400 !important;
@@ -284,12 +295,14 @@ a, button{
 }
 
 .btn {
+    background-color: #10ccf4;
     text-align: center;
     color: #FFFFFF;
     font-family:  'Oswald', Bold;
     font-size: 25pt;  
     margin-top: 2.5%;
     margin-bottom: 17.5%;
+    margin-left: 10%;
 }
 
 .subTextoPortafolio {
@@ -464,7 +477,7 @@ a, button{
         margin-right: 12.5%;
         margin-bottom: 7.5%;
     }
-
+    
     .textoArticleLeft, .textoArticleRight {
         margin-top: 10%;
         margin-bottom: 10%;
@@ -473,6 +486,10 @@ a, button{
         font-size: 10.5pt;
         font-weight: 400;
         color: #FFFFFF;        
+    }
+
+    .cardfondopersonalizado {
+        background: transparent;
     }
 
     .subTextoMiExperiencia {
@@ -507,13 +524,14 @@ a, button{
     }
 
     .card-title {
-        color: #FFFFFF !important;
+        color: #000000 !important;
         font-family:  'Oswald' !important;
         font-size: 15.5pt !important;    
         font-weight: 400 !important;        
     }
 
     .card-text {
+        color: #000000;
         font-family: 'Open Sans', Light !important;
         font-size: 8.5pt !important; 
         text-align: left;          
@@ -545,14 +563,9 @@ a, button{
     }
 
     .centrarfoofooter{
-        position: relative;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        margin-left: 25%;
-        margin-right: 25%;   
-        padding-top: 3.5em;
-        padding-bottom: 3.5em;    
+            padding-top: 3.5em;
+            padding-bottom: 3.5em;    
+            background-color: #10ccf4;
     }    
 
     .nombreFulanoMini {

@@ -20,7 +20,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-success">
 
-          <div class="tituloFulano">F</div>
+        <div class="tituloFulano"><img src="./assets/img/viajes.svg" height="50px" width="50px" />Viajes Chile</div>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">          
             <span class="navbar-toggler-icon"></span>
@@ -81,28 +81,34 @@
           <div class="card-group">
             
             <div class="card">
-              <img class="card-img-top" src="./assets/img/cuppon.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
               </div>
             </div>
 
             <div class="card">
-              <img class="card-img-top" src="./assets/img/dmark.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
               </div>
             </div>
-
+            
             <div class="card">
-              <img class="card-img-top" src="./assets/img/iguana_page.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
               </div>
-            </div>
+            </div>            
 
           </div> <!-- card-group -->   
                     
@@ -115,7 +121,7 @@
           <div class="card-group">
             
             <div class="card">
-              <img class="card-img-top" src="./assets/img/suricata.png" alt="Card image cap">
+              <img class="card-img-top" src="./assets/img/card1.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -123,7 +129,7 @@
             </div>
 
             <div class="card">
-              <img class="card-img-top" src="./assets/img/ricomida.png" alt="Card image cap">
+              <img class="card-img-top" src="./assets/img/card2.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -131,7 +137,7 @@
             </div>
 
             <div class="card">
-              <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="Card image cap">
+              <img class="card-img-top" src="./assets/img/card3.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -139,7 +145,7 @@
             </div>
 
             <div class="card">
-              <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="Card image cap">
+              <img class="card-img-top" src="./assets/img/card4.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -148,7 +154,6 @@
 
           </div> <!-- card-group -->       
 
-          <div class="espaciadoPortafolioBottom"></div>
 
         </div> <!-- estiloPortafolioPresentacion -->
 
@@ -158,20 +163,35 @@
               Contacto   
             </div> 
           </section>      
-
-            <div class="subTextoContactoEstilo">¿Quieres conocer más de mi?</div>
-            <div class="container-fluid h-100"> 
-              <div class="row w-100">
-                  <div class="col v-center">
-                      <button data-tf-popup="ODkcG7Vh" data-tf-iframe-props="title=Formulario de Contacto (copy)" data-tf-medium="snippet" class="btn btn-dark d-block mx-auto" data-toggle="tooltip" data-placement="bottom" title="Click aquí para contactarme">Comenzar</button><script src="//embed.typeform.com/next/embed.js"></script>
-                  </div>  
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu nombre aquí">
               </div>
-            </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Asunto</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Tu asunto aquí">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputTextArea1">Comentario</label>
+                <input type="textarea" class="form-control" id="exampleInputTextArea1" placeholder="Tu comentario aquí">
+              </div>
+
+              <div class="container-fluid h-100"> 
+                <div class="row w-100">
+                    <div class="col v-center">
+                        <button type="submit" class="btn">Enviar</button>
+                        
+                    </div>  
+                </div>
+              </div>              
+              
+            </form>
         </div>
 
       </div> <!-- paddingLeftRight -->
       
-      <div class="bg-success">
+
         <div class="centrarfoofooter">
           <div class="nombreFooter">FULANO</div>
           <div class="redessociales">
@@ -239,7 +259,7 @@
             </div> <!-- ajusteRedesSocialesIconos -->  
           </div>
         </div> <!-- centrarfoofooter -->
-      </div>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
