@@ -304,10 +304,6 @@ a, button{
     color: #10ccf4;
 }
 
-.estiloPortafolioPresentacion {
-    background-color: #10ccf4;
-}
-
 .espaciadoPortafolioBottom {
     margin-bottom: 50px;
     padding-bottom: 100px;
@@ -490,7 +486,7 @@ a, button{
         text-align: center;
         color: #FFFFFF;
         font-family:  'Oswald', Bold;
-        font-size: 32pt;    
+        font-size: 20pt !important;    
         padding-top: 5%;        
     }
 
