@@ -22,7 +22,7 @@
 
         <div class="tituloFulano"><img src="./assets/img/viajes.svg" height="50px" width="50px" />Viajes Chile</div>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">          
+          <button class="navbar-toggler" onclick="ajustarSlidePorNavBar()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">          
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -44,9 +44,13 @@
             </ul>
 
           </div>
-        </nav>
+
+        </div>
+
+      </nav>
         
     </div>
+
     <div id="section1"></div>
     <div id="slideportada" class="carousel slide" data-ride="carousel">
                       
@@ -75,94 +79,96 @@
           <section>
             <div class="subTextoPortafolio" id="section2">
               ¿Quienes Somos?    
-            </div> 
-          </section>         
+            </div>                  
+            <hr class="estiloLineaHR"></hr>
+            <div class="rowPersonalizada">
 
-          <div class="card-group">
-            
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+              <div class="colPersonalizada">
+                <div class="barraPersonalizada"><i class="fas fa-plane cambiar-tamanyo fa-2x"></i></div>
+                <div class="textoPersonalizado">
+                  <p>Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>                
+                </div>
               </div>
+
+              <div class="colPersonalizada">
+                <div class="textoPersonalizado">
+                  <p>Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="barraPersonalizada"><svg class="invertir-color-cambiar-tamanyo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M634.92 462.7l-288-448C341.03 5.54 330.89 0 320 0s-21.03 5.54-26.92 14.7l-288 448a32.001 32.001 0 0 0-1.17 32.64A32.004 32.004 0 0 0 32 512h576c11.71 0 22.48-6.39 28.09-16.67a31.983 31.983 0 0 0-1.17-32.63zM320 91.18L405.39 224H320l-64 64-38.06-38.06L320 91.18z"/></svg></div>              
+              </div>
+
+              <div class="colPersonalizada">
+                <div class="barraPersonalizada"><i class="fas fa-route cambiar-tamanyo fa-2x"></i></div>
+                <div class="textoPersonalizado">
+                  <p>Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+              </div>       
+
             </div>
 
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>            
-
-          </div> <!-- card-group -->   
+          </section>  
                     
           <section>
-            <div class="subTextoPortafolio" id="section3">
-              Destacados   
-            </div> 
-          </section>      
-
-          <div class="card-group">
             
-            <div class="card">
-              <img class="card-img-top" src="./assets/img/card1.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="subTextoPortafolioDestacados" id="section3">
+              Destacados   
+              <hr class="estiloLineaHR"></hr>
+            </div> 
+
+            <div class="rowPersonalizadaDestacados">
+
+              <div class="colPersonalizadaDestacados">
+                <div class="card">
+                  <img class="card-img-top" src="./assets/img/card1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="card">
-              <img class="card-img-top" src="./assets/img/card2.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="colPersonalizadaDestacados">
+                <div class="card">
+                  <img class="card-img-top" src="./assets/img/card3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>              
+
+              <div class="colPersonalizadaDestacados">
+                <div class="card">
+                  <img class="card-img-top" src="./assets/img/card3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="card">
-              <img class="card-img-top" src="./assets/img/card3.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
+              <div class="colPersonalizadaDestacados">
+                <div class="card">
+                  <img class="card-img-top" src="./assets/img/card4.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>        
 
-            <div class="card">
-              <img class="card-img-top" src="./assets/img/card4.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>            
+            </div>  
 
-          </div> <!-- card-group -->       
-
+          </section>   
 
         </div> <!-- estiloPortafolioPresentacion -->
 
         <div>
           <section>
-            <div class="subTextoPortafolio" id="section4">
+            <div class="subTextoPortafolioContacto" id="section4">
               Contacto   
             </div> 
-          </section>      
+            <hr class="estiloLineaHR"></hr>               
             <form>
               <div class="form-group">
                 <label for="exampleInputEmail1">Nombre</label>
@@ -180,20 +186,21 @@
               <div class="container-fluid h-100"> 
                 <div class="row w-100">
                     <div class="col v-center">
-                        <button type="submit" class="btn">Enviar</button>
+                        <button type="submit" class="btn" data-toggle="tooltip" data-placement="bottom" title="Click aquí para contactarme">Enviar</button>
                         
                     </div>  
                 </div>
               </div>              
               
             </form>
+          </section> 
         </div>
 
       </div> <!-- paddingLeftRight -->
       
 
         <div class="centrarfoofooter">
-          <div class="nombreFooter">FULANO</div>
+          <div class="nombreFooter"><img src="./assets/img/viajes.svg" height="50px" width="50px" />Viajes Chile</div>
           <div class="redessociales">
             <div class="ajusteRedesSocialesIconos">
               <!-- Facebook -->
@@ -264,6 +271,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="./assets/js/navbarCustomJS.js"></script>
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
